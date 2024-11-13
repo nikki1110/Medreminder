@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form, h2, ul {
+  max-width: 400px;
+  width: 100%;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+#medications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#medications-list li {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Soft blue background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #4A90E2;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+  }
+  /* Fade-in effect for list items */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #medications-list li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-left: 5px solid #4A90E2;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease;
+  }
+  
